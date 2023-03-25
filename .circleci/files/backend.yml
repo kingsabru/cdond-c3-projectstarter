@@ -39,3 +39,10 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub backend-${ID}
+
+Outputs:
+  ID:
+    Value: !Sub ${ID}
+    Description: Frontend workflow id
+    Export:
+      Name: ID
