@@ -43,6 +43,6 @@ Resources:
 Outputs:
   ID:
     Value: !Sub ${ID}
-    Description: Frontend workflow id
+    Description: Workflow id
     Export:
       Name: ID
